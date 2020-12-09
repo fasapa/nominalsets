@@ -1,0 +1,24 @@
+-arg -w
+-arg all
+-arg -w
+-arg "-notation-overridden"
+
+-R theories Nom
+
+# Base development
+theories/Base.v
+theories/Equiv.v
+theories/Properties.v
+theories/Group.v
+
+# Atom metatheory
+theories/Atom/MSetNotin.v
+theories/Atom/AtomImpl.v
+theories/Atom/AtomSetImpl.v
+theories/Atom/AtomTactics.v
+theories/Atom/Atom.v
+
+# Permutation theory
+theories/Swap.v
+theories/Permutation.v
+theories/PermType.v
